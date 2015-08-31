@@ -15,8 +15,7 @@ function __($id = null, $parameters = [], $domain = 'messages', $locale = null)
         return app('translator');
     }
     if (\Unamatasanatarai\Options\Opt::get('collect_translations') == 1){
-        \App\Models\Trans::truncate();
-        \App\Models\Trans::firstOrCreate(['key' => $id]);
+        \Unamatasanatarai\LaraTrans\Trans::firstOrCreate(['key' => $id]);
     }
 
     return app('translator')->trans($id, $parameters, $domain, $locale);

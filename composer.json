@@ -17,7 +17,7 @@
         "psr-4": {
             "Unamatasanatarai\\LaraTrans\\": "src/Unamatasanatarai/LaraTrans"
         },
-        "files": ["src/Unamatasanatarai/__.php"]
+        "files": ["src/Unamatasanatarai/LaraTrans/trans.php"]
     },
     "minimum-stability": "dev"
 }
