@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "unamatasanatarai/options" : "dev-master",
+        "unamatasanatarai/options" : "dev-master"
     },
     "repositories": [
         {
