@@ -12,5 +12,5 @@ use Unamatasanatarai\LaraTrans\LaraTrans;
 
 function __($id = null, $parameters = [], $domain = 'messages', $locale = null)
 {
-    LaraTrans::__($id, $parameters, $domain, $locale);
+    return LaraTrans::__($id, $parameters, $domain, $locale);
 }
