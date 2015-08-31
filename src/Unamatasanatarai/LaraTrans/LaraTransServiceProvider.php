@@ -2,7 +2,7 @@
 
 use Illuminate\Support\ServiceProvider;
 
-class LaraTransProvider extends ServiceProvider
+class LaraTransServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
