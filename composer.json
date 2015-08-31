@@ -1,0 +1,23 @@
+{
+    "name": "unamatasanatarai/laratrans",
+    "type": "library",
+    "description": "trans() db proxy",
+    "homepage": "https://github.com/unamatasanatarai/laratrans",
+    "keywords": ["laravel5","translation","__"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unamata Sanatarai",
+            "email": "unamatasanatarai@gmail.com",
+            "homepage": "http://www.compelo.com/",
+            "role": "Main Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Unamatasanatarai\\LaraTrans\\": "src/Unamatasanatarai/LaraTrans"
+        },
+        "files": ["src/Unamatasanatarai/__.php"]
+    },
+    "minimum-stability": "dev"
+}
