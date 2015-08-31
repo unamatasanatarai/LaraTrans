@@ -1,4 +1,6 @@
 <?php
+namespace Unamatasanatarai\LaraTrans;
+
 use Unamatasanatarai\LaraTrans\Trans;
 
 class LaraTrans{
