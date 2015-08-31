@@ -23,8 +23,8 @@
         }
     ],
     "autoload": {
-        "psr-4": {
-            "Unamatasanatarai\\LaraTrans\\": "src/Unamatasanatarai/LaraTrans"
+        "classmap": {
+            "src/Unamatasanatarai/LaraTrans"
         },
         "files": ["src/Unamatasanatarai/LaraTrans/trans.php"]
     },
