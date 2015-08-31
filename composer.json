@@ -14,9 +14,9 @@
         }
     ],
     "autoload": {
-        "classmap": {
+        "classmap": [
             "src/Unamatasanatarai/LaraTrans"
-        },
+        ],
         "files": ["src/Unamatasanatarai/LaraTrans/trans.php"]
     },
     "minimum-stability": "dev"
