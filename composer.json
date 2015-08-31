@@ -13,15 +13,6 @@
             "role": "Main Developer"
         }
     ],
-    "require": {
-        "unamatasanatarai/options" : "dev-master"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:unamatasanatarai/options"
-        }
-    ],
     "autoload": {
         "classmap": {
             "src/Unamatasanatarai/LaraTrans"
