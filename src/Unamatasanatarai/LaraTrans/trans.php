@@ -1,4 +1,5 @@
 <?php
+use Unamatasanatarai\LaraTrans\LaraTrans;
 /**
  * Translate the given message and store its key in database for use with TranslationController
  *
@@ -11,12 +12,5 @@
 
 function __($id = null, $parameters = [], $domain = 'messages', $locale = null)
 {
-    if (is_null($id)) {
-        return app('translator');
-    }
-    if (\Unamatasanatarai\Options\Opt::get('collect_translations') == 1){
-        \Unamatasanatarai\LaraTrans\Trans::firstOrCreate(['key' => $id]);
-    }
-
-    return app('translator')->trans($id, $parameters, $domain, $locale);
+    LaraTrans::__($id, $parameters, $domain, $locale);
 }
